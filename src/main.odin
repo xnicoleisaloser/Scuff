@@ -12,8 +12,8 @@ import "core:path/filepath"
 // begin codegen
 
 main :: proc() {
-    makefile := load_makefile("../examples/project/makefile.json")
-    log_info("Makefile Loaded:", "../examples/project/makefile.json")
+    makefile := load_makefile("../examples/simple_project/makefile.json")
+    log_info("Makefile Loaded:", "../examples/simple_project/makefile.json")
 
     // TODO: add support for sounds in addition to costumes
     compiled_targets:   json.Array
