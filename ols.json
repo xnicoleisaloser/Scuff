@@ -1,0 +1,17 @@
+{
+    "collections": [
+        {
+            "name": "core",
+            "path": "/home/nicole/Coding/Odin/Odin/core"
+        },
+        {
+            "name": "vendor",
+            "path": "/home/nicole/Coding/Odin/Odin/vendor"
+        }
+    ],
+    "enable_document_symbols": true,
+    "enable_semantic_tokens": true,
+    "enable_hover": true,
+    "enable_snippets": true,
+    "odin_command": "/home/nicole/Coding/Odin/Odin/odin"
+}

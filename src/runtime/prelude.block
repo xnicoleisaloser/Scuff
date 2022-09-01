@@ -1,0 +1,29 @@
+{
+    "runtime_flagclicked": {
+        "opcode": "event_whenflagclicked",
+        "next": "runtime_callmain",
+        "parent": null,
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": true,
+        "x": 100,
+        "y": 20
+    },
+    "runtime_callmain": {
+        "opcode": "procedures_call",
+        "next": null,
+        "parent": "runtime_flagclicked",
+        "inputs": {},
+        "fields": {},
+        "shadow": false,
+        "topLevel": false,
+        "mutation": {
+            "tagName": "mutation",
+            "children": [],
+            "proccode": "main",
+            "argumentids": "[]",
+            "warp": "true"
+        }
+    }
+}
