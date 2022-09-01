@@ -1,0 +1,33 @@
+{
+	"targets": [
+		{
+			"kind": "stage",
+			"filePath": "stage.scuff",
+			"name": "Stage",
+			"costumes": [
+				{
+					"name": "stage",
+					"path": "stage.svg",
+					"rotationCenterX": 240,
+					"rotationCenterY": 180
+				}
+			],
+			"sounds": [
+			]
+		},
+		{
+			"kind": "sprite",
+			"filePath": "sprite.scuff",
+			"name": "Sprite",
+			"costumes": [
+				{
+					"name": "sprite",
+					"path": "sprite.svg",
+					"rotationCenterX": 44,
+					"rotationCenterY": 44
+				}
+			]		
+		}
+	],
+	"extensions": ["pen"]
+}
